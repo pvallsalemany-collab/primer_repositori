@@ -24,18 +24,62 @@ Aprendre a redactar documentació tècnica estructurada utilitzant el llenguatge
 ![Selecciona el fitxer](img/selecciona_el_fitxer.png) <br>
 
 3. **Pas 3**: Redactar el contingut seguint l'estructura oficial i la sintaxi de Markdown. <br>
-´´´
+```markdown 
+# Fitxa tècnica: [títol]
+
+## Objectiu
+
+## Materials
+
+## Procediment
+
+1. Pas inicial.
+2. Segon pas.
+...
+
+## Comprovacions
+
+- [ ] Primera comprovació
+- [ ] Segona comprovació
+
+## Incidències i solucions
+
+| Incidència | Solució |
+|---|---|
+| Exemple | Exemple |
+
+## Recursos
+
+- [Documentació consultada](https://docs.github.com/)
+```
 
 4. **Pas 4:** Utilitzar la drecera `Ctrl+Shift+V` per obrir la previsualització i comprovar que el format és correcte. <br> 
 **Imatge sense previsualització** <br>
 ![imatge sense previsualització](/img/imatge_sense_previsualització%20Git.png)<br>
+
 **Imatge amb previsualització** <br>
 ![imatge amb previsualització](/img/imatge_amb_previsualització.png)<br>
-5. **Pas 5:** Obrir la terminal integrada de VS Code per començar a gestionar el versionat amb Git. <br>
-Per orbrir la terminal es fa **Ctrl + Ñ** <br>
-![Ctrl + Ñ Obre la terminal](/img/Crtl+Ñ_Obre%20la%20terminal.png)
-6. **Pas 6:** Guardar
 
+5. **Pas 5:** Obrir la terminal integrada de VS Code per començar a gestionar el versionat amb Git. <br>
+Per orbrir la terminal es fa **Ctrl + Ñ** per defecte s'obra abaix el mig de la pantalla <br>
+![Ctrl + Ñ Obre la terminal](/img/Crtl+Ñ_Obre%20la%20terminal.png)
+6. **Pas 6:** Executar les ordres per guardar els canvis localment amb Git
+```bash
+git status
+```
+Comprova l'estat del repositori i mostra els fitxers modificats. 
+```bash
+git add fitxa-tecnica.md
+```
+Afegeix el fitxer a la zona de preparació (staging area)
+```bash
+git commit -m "Creació inicial de la fitxa tècnica"
+```
+Guarda una nova versió del projecte amb un missatge descriptiu. <br>
+7. **Pas 7:** Quant ho tinguis tot revisat pots fer push i ho envia tot al Github
+```bash
+git push origin main
+```
 
 ## Comprovacions
 - [ ] El fitxer `fitxa-tecnica.md` s'ha creat a l'arrel de la carpeta correcta.
@@ -45,7 +89,7 @@ Per orbrir la terminal es fa **Ctrl + Ñ** <br>
 
 ## Incidències i solucions
 
-| Incidència | Solució 💡
+| Incidència ❌🤔❓| Solució 💡
 |------------|----------|
 | La previsualització de Markdown no es veia correctament.        | Obrir la previsualització amb Ctrl + Shift + V i revisar la sintaxi. |
 | Les imatges no es mostraven al document.  | Corregir la ruta dels fitxers dins de la carpeta img/. |
@@ -57,5 +101,5 @@ Per orbrir la terminal es fa **Ctrl + Ñ** <br>
 ## Recursos
 
 - [Documentació consultada a GitHub](https://github.com/SMX-ProjecteIntermodular/Projecte2/blob/main/activitat-2.md)
--  
+- [Emojis](https://emojidb.org/tech-emojis?utm_source=user_search) 
 
