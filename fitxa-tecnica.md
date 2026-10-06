@@ -5,7 +5,7 @@
 - Materials
 - Procediment
 - Comprovacions
-- Incidències-i-solucions
+- Incidències i solucions
 - Recursos
 
 ## Objectiu
