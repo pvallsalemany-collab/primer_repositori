@@ -75,8 +75,8 @@ Afegeix el fitxer a la zona de preparació (staging area)
 ```bash
 git commit -m "Creació inicial de la fitxa tècnica"
 ```
-![punt_de_control_=commit](/img/Veure_un_punt_control.png) <br>
-*En aquesta imatge es veu com són els commits que són com punts de control
+![punt_d'estat_de_projecte=commit](/img/Veure_un_punt_control.png) <br>
+*Es pot veure el recent commit, **recorda que un commit no és exactament un punt de restauració**. És una fotografia de l'estat del projecte en un moment concret.
 Guarda una nova versió del projecte amb un missatge descriptiu. <br>
 7. **Pas 7:** Quant ho tinguis tot revisat pots fer push i ho envia tot al Github
 ```bash
@@ -105,4 +105,3 @@ Envia els commits de la branca local `main` al repositori de GitHub.
 
 - [Documentació consultada a GitHub](https://github.com/SMX-ProjecteIntermodular/Projecte2/blob/main/activitat-2.md)
 - [Emojis](https://emojidb.org/tech-emojis?utm_source=user_search) 
-
