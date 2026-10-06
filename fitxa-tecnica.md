@@ -80,6 +80,7 @@ Guarda una nova versió del projecte amb un missatge descriptiu. <br>
 ```bash
 git push origin main
 ```
+Envia els commits de la branca local `main` al repositori de GitHub.
 
 ## Comprovacions
 - [ ] El fitxer `fitxa-tecnica.md` s'ha creat a l'arrel de la carpeta correcta.
