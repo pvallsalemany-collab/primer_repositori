@@ -75,6 +75,8 @@ Afegeix el fitxer a la zona de preparació (staging area)
 ```bash
 git commit -m "Creació inicial de la fitxa tècnica"
 ```
+![punt_de_control_=commit](/img/Veure_un_punt_control.png) <br>
+*En aquesta imatge es veu com són els commits que són com punts de control
 Guarda una nova versió del projecte amb un missatge descriptiu. <br>
 7. **Pas 7:** Quant ho tinguis tot revisat pots fer push i ho envia tot al Github
 ```bash
